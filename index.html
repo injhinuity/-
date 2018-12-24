@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>オンブラ</title>
+    <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="https://cdn.discordapp.com/attachments/522801443674259458/526883113532522496/fav.png" type="image/png" sizes="16x16">
+    <!-- <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="t.min.js"></script>
+
+</head>
+<body>
+    <div class="indicator"> 
+        <svg width="16px" height="12px">
+          <polyline id="back" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline>
+          <polyline id="front" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline>
+        </svg>
+      </div>
+    <pre id="main">
+オンブラ<ins><span id="pow-txt">---[Fatal_Error_]</span></ins>
+<span id="tagline">:\Inval1d B1nary<ins>1.5</ins><br>dir:オンブラ means ombra in catalan.<br>|<br>ombra_ = “shadow”.<br>Error_ = “I will be your shadow”..<br>- I will watch over your server like a guardian angel.<br>//_<br>.<br>|| thx.exe - loading  ██████████████100%<br>program full loaded/<br>.<br>/result = “Documentation coming in 2019”<br>/end_</span><del></del><del id="pow-trigger"></del> \\
+</pre>
+
+    <script>
+    $(function() {
+    $(".indicator").fadeOut(500, function() {
+        $(".main").fadeIn(1000);  
+    });
+});      
+    $('#main').t({
+ beep:true,
+ caret:'<span style="color:#99aab5;">•</span>',
+ typing:function(elm,chr){
+
+   if(chr.match(/\-trigger/))
+     $('#pow-txt').show().delay(500).fadeOut(0);
+  
+ }
+});
+
+    
+    </script>
+</body>
+</html>
